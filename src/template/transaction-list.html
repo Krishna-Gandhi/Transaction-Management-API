@@ -1,0 +1,21 @@
+<div class="products-list">
+    <div class="products-detail">
+        <div class="product-image">
+            <!--<img src={{%IMAGE%}} height="120" width="120">-->
+        </div>
+        <div class="product-specs">
+            <h3>ID: {{%TRANSACTIONID%}}</h3>
+            <p><span>SENDER:</span>{{%USERSENDINGNAME%}}</p>
+            <p><span>RECEIVER:</span>{{%USERRECEIVINGNAME%}}</p>
+            <p><span>DATE:</span>{{%DATE%}}</p>
+            
+        </div>
+    </div>
+    <div class="products-detail">
+        <div class="product-info"><h4>AMOUNT: ${{%AMOUNT%}}</h4></div>
+        <div class="product-info"><h4>DISCRIPTION: {{%DISCRIPTION%}}</h4></div>
+        <div class="product-info">
+            <a href="/products?id={{%TRANSACTIONID%}}" class="btn btn-secondary">Show Details</a>
+        </div>
+    </div>
+</div>

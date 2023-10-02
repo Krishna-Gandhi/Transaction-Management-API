@@ -1,0 +1,14 @@
+[
+    {
+
+        "transactionId": 0,
+        "amount": 10000,
+        "description": "10000 amount transfered",
+        "date": "1/01/2023",
+        "transactionStatus": "Complete",
+        "userSendingName": "Us1",
+        "userReceivingName": "Us2",
+        "transactionCriteria": "amount",
+        "sessionToken": "abc"
+    }
+]
